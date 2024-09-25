@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Program 15</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("p").after("<div class='info'>Inserted html after paragraph</div>");
+            $("p:last").after("<p class='new-paragraph'>This is DOM element</p>");
+        });
+    </script>
+    <style>
+        .info {
+            background-color: #ffe5b4;
+            padding: 15px;
+            margin: 15px 0;
+            border: 1px solid #ffcc80;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+        .new-paragraph {
+            background-color: #e0f7fa;
+            padding: 10px;
+            margin: 15px 0;
+            border: 1px solid #80deea;
+            border-radius: 5px;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p>This is first paragraph</p>
+    <h2>This is a heading</h2>
+    <p>This is second paragraph</p>
+    <p>This is last paragraph</p>
+</body>
+</html>

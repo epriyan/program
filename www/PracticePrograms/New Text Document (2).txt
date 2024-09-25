@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Result</title>
+</head>
+<body>
+<?php
+	if($_SERVER['REQUEST_METHOD']=="POST"){
+		$a = $_POST['name'];
+		echo "Welcome ".$a;
+	}
+?>
+</body>
+</html>

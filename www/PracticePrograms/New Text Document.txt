@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>
+Program1
+</title>
+</head>
+<body>
+<form action="result.php" method="post">
+Name<br><input type="text" placeholder="Enter your name" name="name"/>
+<br>
+<br>
+<input type="submit" value="Submit"/>
+</form>
+</body>
+</html>

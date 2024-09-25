@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program14</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("p:last").addClass("PSG_Colour PSG_Background");
+            $("#existingClass").addClass("newClass");
+        });
+    </script>
+    <style>
+        .PSG_Colour {
+            color: #ff0073; 
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .PSG_Background {
+            background-color: #ffffe0; 
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .newClass {
+            font-weight: bold;
+            color: #d4ff00; 
+        }
+    </style>
+</head>
+<body>
+    <p>This is first paragraph</p>
+    <p>This is last paragraph</p>
+    <div id="existingClass">This is a div with new class</div>
+</body>
+</html>
